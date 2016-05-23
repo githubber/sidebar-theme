@@ -34,10 +34,10 @@ load_plugin_textdomain( 'optionsframework', false, dirname( plugin_basename( __F
 
 /* Make sure we don't expose any info if called directly */
 
-if ( !function_exists( 'add_action' ) ) {
-	echo "Hi there!  I'm just a little plugin, don't mind me.";
-	exit;
-}
+/* if ( !function_exists( 'add_action' ) ) { */
+/*	echo "Hi there!  I'm just a little plugin, don't mind me."; */
+/*	exit; */
+/*}  */
 
 /* If the user can't edit theme options, no use running this plugin */
 
